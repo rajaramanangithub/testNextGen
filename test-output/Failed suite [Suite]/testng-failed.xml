@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test thread-count="3" name="Test(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="FrameworkTestNG.gmailCross">
+        <methods>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- FrameworkTestNG.gmailCross -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+  <test thread-count="3" name="Test1(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="FrameworkTestNG.gmailCross">
+        <methods>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- FrameworkTestNG.gmailCross -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
